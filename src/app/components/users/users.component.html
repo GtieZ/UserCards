@@ -1,0 +1,10 @@
+<div class="container mb-3">
+    <h1>All Users</h1>
+</div>
+
+
+<div class="container user-container">
+    <div *ngFor="let user of users">
+        <user [user]="user"></user>
+    </div>
+</div>

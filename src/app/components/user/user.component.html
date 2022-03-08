@@ -1,0 +1,13 @@
+
+<div class="card m-3 border-warning" 
+     id="cd-{{user.id}}"
+    style="width: 0rem; 
+           height: 0px; 
+           box-shadow: 3px 3px 7px; 
+           transform: rotate(0deg);"
+>
+    <img src="{{user.avatar}}" class="card-img-top" alt="{{user.first_name}}" (click)="handleClick()">
+    <div class="card-body"  >
+        <h5 class="card-title" (click)="nameClick()">{{user.first_name}} {{user.last_name}}</h5>
+    </div>
+</div>
